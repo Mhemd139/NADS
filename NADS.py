@@ -11,13 +11,13 @@ import soundfile as sf
 import elevenlabs
 
 
-elevenlabs.set_api_key("89cd54ea93ee501c50e939a5abda0327") 
+elevenlabs.set_api_key("") 
 #The Path of the Speech's File
 speech_file_path = Path(__file__).parent / "speech.mp3"
 # Enter your Assistant ID here.
-ASSISTANT_ID = "asst_7Rv1r9reYeAP0P3pdq4invki"
+ASSISTANT_ID = ""
 # Make sure your API key is set as an environment variable.
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="")
 # Create a thread with a message.
 thread = client.beta.threads.create(
     messages=[
